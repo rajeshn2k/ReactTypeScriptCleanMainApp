@@ -1,0 +1,13 @@
+https://dzone.com/articles/top-20-git-commands-with-examples
+
+git clone https://github.com/RajeshNandhan/reacttypescriptcleanapiclientapp.git
+
+git status
+
+git add .
+
+git commit -m "commit it"
+
+git push origin main
+
+git status

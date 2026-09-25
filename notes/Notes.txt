@@ -1,0 +1,40 @@
+Step 1 - Create a new react application using below command
+
+https://create-react-app.dev/docs/adding-typescript/
+
+npx create-react-app my-app --template typescript
+
+
+Step 2
+npm install --save typescript @types/node @types/react @types/react-dom @types/jest 
+
+
+Step 3 - axios - Makes http requests for API call
+
+npm install axios
+
+
+Step 4 - date-fns - Provides toolset for manipulating JavaScript dates in a browser
+
+npm install date-fns
+
+
+Step 5 - react-icons - Include popular icons in your React projects
+
+npm install react-icons
+
+
+Step 6 - react-router-dom - Package contains bindings for using React Router in web applications
+
+npm i react-router-dom
+
+
+
+STEP 8 - Dotenv module loads environment variables from a .env file into process.env
+
+npm i dotenv --save
+
+
+STEP 9 - Passing multiple environment variable is possible only with "cross-env" module, cross-env is a cross platform
+
+STEP 10 - npm install githubnodejstypescriptprinciplelibrary

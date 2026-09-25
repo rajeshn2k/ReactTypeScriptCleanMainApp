@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh; 
+  width: 100%; 
+  /* max-width: 500px; */
+  border: 1px solid mediumblue;
+  margin: auto;
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+home {
+  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  flex-grow: 1;
+  /* justify-content: flex-start;
+  align-items: stretch; */
+  overflow-y: auto;
+  background-color: white;
+}
+
+header {
+  width: 100%;
+  padding: 0 0.25em;
+  background-color: mediumblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-head {
+  width: 100%;
+  padding: 0 0.25em;
+  background-color: mediumblue;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: stretch;
+  overflow-y: auto;
+}
+
+footer {
+  width: 100%;
+  padding: 0.25em;
+  background-color: mediumblue;
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+}
+
+.bookEditForm, .personEditForm {
+  width: 80%;
+}
+
+.bookEditForm input[type="text"], .bookEditForm button, .bookEditForm label, 
+.personEditForm input[type="text"], .personEditForm button, .personEditForm label,
+.personEditForm input[type="checkbox"], .personEditForm input[type="number"], .personEditForm input[type="date"]
+ {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  min-height: 48px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+/*button styel for FaTrashAlt, FaEdit, FaSave*/
+.item svg {
+  width: 48px;
+  min-width: 48px;
+  height: 36px;
+  font-size: 1rem;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.item svg:focus, 
+.item svg:hover {
+  color: goldenrod;
+  outline: none;
+}
+
+.securityButton {
+  font-family: 'Open Sans', sans-serif;
+  width: 200px;
+  min-height: 40px;
+  font-size: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.header-label{
+  color: brown;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px;
+  font-size: 30px;
+}
